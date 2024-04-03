@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>Javascript Ex4</title>
+    <link rel="stylesheet" href="./CSS/stylesheet.css" />
+  </head>
+  <body>
+    <h1 class="page-header">Javascript onchange event</h1>
+    <hr />
+    <div class="middle">
+      <div class="section">
+        <h4>On cgange event on textbox</h4>
+        <input
+          type="text"
+          placeholder="firstname"
+          id="txt-fname"
+          onchange="show(this)"
+        /><br /><br />
+        <input
+          type="text"
+          placeholder="lastname"
+          id="txt-lname"
+          onchange="show(this)"
+        /><br /><br />
+        <input
+          type="email"
+          placeholder="email"
+          id="txt-email"
+          onchange="show(this)"
+        /><br /><br />
+      </div>
+      <div class="section">
+        <h4>On cgange event on selectbox</h4>
+        <select onchange="show_city(this)">
+          <option value="Bengaluru">Bengaluru</option>
+          <option value="Kolkata">Kolkata</option>
+          <option value="Mumbai">Mumbai</option>
+        </select>
+      </div>
+      <div class="section">
+        <h4>onchange event on textbox without using reference (this)</h4>
+        <input
+          type="text"
+          placeholder="education"
+          id="txt-edu"
+          onchange="show_edu()"
+        />
+        <input
+          type="text"
+          placeholder="experience"
+          id="txt-exp"
+          onchange="show_exp()"
+        />
+      </div>
+      <div class="section">
+        <h4>On cgange event on radiobuttons</h4>
+        <input
+          type="radio"
+          name="menus"
+          id="menu-1"
+          value="Pizza"
+          onchange="select_menu(this)"
+        />
+        <label for="menu-1">Pizza</label>
+        <input
+          type="radio"
+          name="menus"
+          id="menu-2"
+          value="Burger"
+          onchange="select_menu(this)"
+        />
+        <label for="menu-2">Burger</label>
+        <input
+          type="radio"
+          name="menus"
+          id="menu-3"
+          value="Pasta"
+          onchange="select_menu(this)"
+        />
+        <label for="menu-3">Pasta</label>
+
+        <p id="p-menu">null</p>
+      </div>
+    </div>
+    <div class="middle">
+      <div class="section">
+        <input
+          type="checkbox"
+          value="Python"
+          id="ckh1"
+          onchange="select_language(this)"
+        />
+        <label for="ckh1">Python</label>
+
+        <input
+          type="checkbox"
+          value="Java"
+          id="ckh2"
+          onchange="select_language(this)"
+        />
+        <label for="ckh2">Java</label>
+
+        <input
+          type="checkbox"
+          value="SQL"
+          id="ckh3"
+          onchange="select_language(this)"
+        />
+        <label for="ckh3">SQL</label>
+
+        <p id="p-language">null</p>
+      </div>
+    </div>
+    <script src="./js/script2.js"></script>
+  </body>
+</html>

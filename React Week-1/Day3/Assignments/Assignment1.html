@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="./stylesheet1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <input
+          type="number"
+          placeholder="num*"
+          class="container-1"
+          id="inputBox1"
+        />
+        <input
+          type="number"
+          placeholder="num*"
+          class="container-1"
+          id="inputBox2"
+        />
+      </div>
+      <hr />
+      <br />
+      <div class="container-2">
+        <button class="btn-1" onclick="updateInput(1)">1</button>
+        <button class="btn-1" onclick="updateInput(2)">2</button>
+        <button class="btn-1" onclick="updateInput(3)">3</button>
+        <button class="btn-1" onclick="updateInput(4)">4</button>
+        <button class="btn-1" onclick="updateInput(5)">5</button>
+        <button class="btn-1" onclick="updateInput(6)">6</button>
+        <button class="btn-1" onclick="updateInput(7)">7</button>
+        <button class="btn-1" onclick="updateInput(8)">8</button>
+        <button class="btn-1" onclick="updateInput(9)">9</button>
+        <button class="btn-1" onclick="substraction()">-</button>
+        <button class="btn-1" onclick="updateInput(0)">0</button>
+        <button class="btn-1" onclick="addition()">+</button>
+        <button class="btn-1" onclick="multiplication()">*</button>
+        <button class="btn-1" onclick="division()">/</button>
+        <button class="btn-1" onclick="resetInputs()">reset</button>
+      </div>
+      <p id="p-ans">Null</p>
+    </div>
+    <script src="./script1.js"></script>
+  </body>
+</html>

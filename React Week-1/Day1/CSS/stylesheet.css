@@ -1,0 +1,28 @@
+.table {
+    border: 1px solid darkgrey;
+    border-collapse: collapse;
+    margin: 15px;
+    text-align: center;
+  }
+  .table-dark {
+    background-color: darkmagenta;
+    color: white;
+  }
+  .table-light {
+    background-color: rgb(114, 165, 207);
+    color: darkblue;
+  }
+  #table-1 {
+    width: 200px;
+    text-align: left;
+  }
+  #table-2 {
+    width: 400px;
+  }
+  #table-3 {
+    width: 300px;
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+  }

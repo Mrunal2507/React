@@ -1,0 +1,60 @@
+h1 {
+    font: bolder 35px;
+    color: white;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.container{
+    background-color: rgb(4, 170, 4);
+    display: flex;
+    height: 60px;
+}
+
+.btn-login{
+    height: 20px;
+    margin-top: 22px;
+    border: none;
+    width: 60px;
+    margin-right: 5px;
+}
+
+.container1{
+    margin-right: 10px;
+}
+
+h2{
+    color: rgb(4, 170, 4);
+}
+
+.login-form{
+    border: 2px solid;
+    width: 28%;
+    margin-left: 35%;
+    margin-top: 80px;
+    padding: 0px 20px 20px 20px;
+    height: 155px;
+}
+
+#textbox{
+    border: 1px solid;
+    height: 25px;
+    padding-left: 15px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.btn-submit{
+    background-color: rgb(17, 184, 17);
+    border: none;
+    width: 100px;
+    color: white;
+    float: right;
+    height: 25px;
+    box-shadow: 2px 2px 2px darkgrey;
+    font-size: medium;
+}
+
+.btn-submit:hover{
+    box-shadow: 2px 2px 2px lightgrey;
+}

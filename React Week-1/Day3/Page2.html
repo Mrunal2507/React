@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Javascript Ex2</title>
+  </head>
+  <!-- This is document object model..
+  Having hirarchy such as table-thead-tbody-tr-td...and so on -->
+  <body>
+    <input type="text" id="txt-username" placeholder="username" />
+    <button onclick="show()">Show User</button>
+    <div hidden>
+      <ul>
+        <li class="list-item">Personal Account</li>
+        <li class="list-item">Loan Account</li>
+      </ul>
+      <table class="table-dark">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>City</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>101</td>
+            <td>Sakshi</td>
+            <td>Dhule</td>
+          </tr>
+          <tr>
+            <td>102</td>
+            <td>Mrunal</td>
+            <td>Nashik</td>
+          </tr>
+          <tr>
+            <td>103</td>
+            <td>Snehal</td>
+            <td>Malkapur</td>
+          </tr>
+          <tr>
+            <td>104</td>
+            <td>Gunjan</td>
+            <td>Bhusaval</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script>
+      function show() {
+        var user = document.getElementById("txt-username").value;
+        console.log(user);
+      }
+    </script>
+  </body>
+</html>

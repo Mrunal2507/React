@@ -1,0 +1,53 @@
+.login-header{
+    background-color: darkgreen;
+}
+
+.login-header p{
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+.login-body{
+    background-color: lightgoldenrodyellow;
+    height: 160px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.login-div{
+    width: 300px;
+}
+
+.form-lable{
+    margin: 0px;
+    font: bold 10px "arial";
+}
+
+.login-body input[type="text"], .login-body input[type="password"]{
+    text-align: center;
+    font: normal 20px "calibri";
+    width: 90%;
+    /* top righr bottom left */
+    margin: 0px 5px 0px 5px;
+}
+
+.btn-login{
+    background-color: lightgreen;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    margin: 20px 5px 5px 5px;
+    float: right;
+    box-shadow: 3px 3px 3px gray;
+    font: bold 15px "arial";
+}
+
+.btn-login:hover{
+    box-shadow: 3px 3px 3px darkgray;
+}
+
+#container{
+    justify-content: center;
+    display: flex;
+}

@@ -1,0 +1,60 @@
+.table-1{
+    border-collapse: collapse;
+    margin: 10px 25px 10px 0px;
+    width: 50%;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+img{
+    border: 1px solid;
+    margin-left: 10px;
+    margin: 10px;
+    width: 85%; 
+    height: 43%; 
+}
+
+.container-1{
+    width: 100%;
+    height: 53%;
+    display: flex; 
+    justify-content: center;
+}
+
+.head-1{
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.head-2{
+    margin-left: 20px;
+}
+
+.container-2{
+    width: 100%;
+}
+
+.table-2{
+    border-collapse: collapse;
+    width: 40%;
+    margin: 10px 15px 10px 15px;
+}
+
+#txt-2{
+    color: blue
+}
+
+#txt-3{
+    color: rgb(130, 205, 17);
+}
+
+.container-3{
+    width:100%;
+    height: 35%;
+    display: flex;
+}
+ 

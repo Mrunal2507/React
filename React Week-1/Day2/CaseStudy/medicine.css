@@ -1,0 +1,106 @@
+h1 {
+    font: bolder 35px;
+    color: white;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.container{
+    background-color: rgb(4, 170, 4);
+    display: flex;
+    height: 60px;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 100;
+}
+
+.btn-login{
+    height: 20px;
+    margin-top: 22px;
+    border: none;
+    width: 60px;
+    margin-right: 5px;
+}
+
+.card{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px darkgray;
+    width: 220px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+.img-2{
+    padding: 10px;
+    width: 200px;
+    height: 130px;
+    display: block;
+}
+
+.txt-1{
+   text-align: center;
+}
+
+.txt-2{
+    font-weight: bold;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+.txt-3{
+    width: 80px;
+    border: 1px solid;
+}
+
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 22%;
+    margin-top: 70px;
+}
+
+.container-2{
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    position: fixed;
+}
+
+.txt-4{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 0px;
+}
+
+.container-3{
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#searchInput{
+    width: 100%; 
+    height: 25px;
+}
+
+.searh-box{
+    position: relative;
+    display: flex;
+}
+
+#searchIcon{
+    position: absolute;
+    left: 88%;
+    margin-top: 5px;
+    font-size: 15px;
+    color: darkgray;
+}
